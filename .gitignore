@@ -2,8 +2,12 @@ node_modules/
 dist/
 .env
 .env.local
-.vercel/
-*.log
-.DS_Store
-
+.env.production
+.env.development
+.env.test
+!.env.example
 .vercel
+.DS_Store
+*.log
+coverage/
+.supabase/
